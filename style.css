@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #2f3b45;
+    color: #fff;
+}
+
+/* Navbar */
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    padding: 20px;
+    margin: 0;
+    background: #222;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    opacity: 0.7;
+}
+
+/* Home Hero */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.hero-img {
+    width: 40%;
+    border-radius: 5px;
+}
+
+.quote-box {
+    background: #e9d3cd;
+    color: #333;
+    padding: 40px;
+    border-radius: 8px;
+    width: 50%;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Info & Books */
+.info-section, .books-section {
+    padding: 40px;
+}
+
+.books-section ul {
+    font-size: 20px;
+}
+/* HERO AREA */
+.hero {
+    display: flex;
+    padding: 60px;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-left {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.hero-img {
+    width: 100%;
+    max-width: 360px;
+    border-radius: 12px;
+    box-shadow: 0px 8px 20px rgba(0,0,0,0.45);
+}
+
+.hero-right {
+    flex: 1;
+    background: #e9d3cd;
+    color: #2f2f2f;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0px 8px 20px rgba(0,0,0,0.4);
+}
+
+.hero-title {
+    margin-top: 0;
+    font-size: 38px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.hero-quote {
+    font-size: 18px;
+    line-height: 1.7;
+    margin: 20px 0;
+}
+
+.hero-quote span {
+    font-style: italic;
+    color: #555;
+}
+
+.hero-btn {
+    display: inline-block;
+    padding: 12px 20px;
+    background: #2f3b45;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.hero-btn:hover {
+    background: #1f282f;
+    transform: translateY(-3px);
+}
+.info-section {
+    max-width: 850px;
+    margin: 50px auto;
+    background: #e9d3cd;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0px 8px 20px rgba(0,0,0,0.4);
+    color: #333;
+}
+
+.info-section h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.bio-text {
+    font-size: 18px;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
